@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import br.usjt.ftce.progmulti.meuprimeiroapp.R;
-//Arthur Segin Ribeiro - RA:816154363
+
 public class DisplayMessageActivity extends Activity {
 
     @Override
