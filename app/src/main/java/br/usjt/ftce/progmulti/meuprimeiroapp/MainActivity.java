@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 
 import br.usjt.ftce.progmulti.meuprimeiroapp.R;
-//Allan Samey Cordeiro Ramos - RA:201516605
+//Arthur Segin Ribeiro - RA:816154363
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -15,13 +15,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    //Allan Samey Cordeiro Ramos - RA:201516605
+    //Arthur Segin Ribeiro - RA:816154363
     //constante static para identificar a mensagem
     public final static String EXTRA_MESSAGE =
             "br.usjt.ftce.progmulti.meuprimeiroapp.MESSAGE";
     //será chamado quando o usuário clicar em Enviar
 
-    //Allan Samey Cordeiro Ramos - RA:201516605
+    //Arthur Segin Ribeiro - RA:816154363
     public void sendMessage(View view){
         Intent intent = new Intent(this, DisplayMessageActivity.class);
         EditText editText = (EditText) findViewById(R.id.edit_message);
